@@ -1,0 +1,24 @@
+{
+  "name": "skillupnodejs",
+  "version": "1.0.0",
+  "description": "This node js application is basically for testing over jenkins .\r We can run this ans expose  sample APIs to test.\r It requires Express js, Body Parser, mysql dependancies.\r Simply run index.js to get the application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princesingh17/skillupnodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princesingh17/skillupnodejs/issues"
+  },
+  "homepage": "https://github.com/princesingh17/skillupnodejs#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}
