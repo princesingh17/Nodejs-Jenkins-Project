@@ -1,13 +1,17 @@
+# Use a specific version of Node.js as the base image
 FROM node:12.1.0-alpine
 
+# Set the working directory inside the container
 WORKDIR /app
 
+# Copy the application code into the container
 COPY . .
 
+# Install the dependencies
 RUN npm install
 
-RUN npm run index.js
-
+# Expose the port that the application will run on
 EXPOSE 9595
 
-CMD ["node", "app.js"]
+# Run the Node.js application
+CMD ["node", "index.js"]
