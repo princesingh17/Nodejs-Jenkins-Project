@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "princesingh1996/node-app-todo:latest"
+    ports:
+       -  "9595:9595"
